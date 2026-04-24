@@ -13,8 +13,11 @@ This project demonstrates how to secure an Ubuntu server using UFW firewall.
 
 ## linux-firewall-ufw-project/
 │
+
 ├── README.md
+
 ├── commands.sh
+
 ├── notes.txt
 ├── screenshots/
 │   ├── 1-install-ufw.png
