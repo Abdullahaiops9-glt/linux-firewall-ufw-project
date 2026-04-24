@@ -11,6 +11,35 @@ This project demonstrates how to secure an Ubuntu server using UFW firewall.
 - Open custom application port
 - Verify firewall rules
 
+## linux-firewall-ufw-project/
+│
+├── README.md
+├── commands.sh
+├── notes.txt
+├── screenshots/
+│   ├── 1-install-ufw.png
+│   ├── 2-enable-firewall.png
+│   ├── 3-allow-ssh.png
+│   ├── 4-allow-http.png
+│   ├── 5-block-8080.png
+│   ├── 6-allow-3000.png
+│   ├── 7-final-rules.png
+
+# 1️⃣ Installation
+sudo apt install ufw -y
+
+# 2️⃣ Enable Firewall
+sudo ufw enable
+
+# 3️⃣ SSH Allowed
+sudo ufw allow ssh
+
+# 4️⃣ HTTP Allowed
+sudo ufw allow http
+
+# 5️⃣ Final Rules
+sudo ufw status verbose
+
 ## ⚙️ Commands Used
 
 sudo apt update
